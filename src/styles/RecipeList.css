@@ -1,0 +1,19 @@
+/* La rejilla se adapta sola: 1 columna en celular, 2-3 en tableta y 4 en escritorio */
+.lista-recetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lista-recetas__vacia {
+  padding: 3rem 1.5rem;
+  font-weight: 600;
+  color: var(--color-texto-suave);
+  text-align: center;
+  background-color: var(--color-superficie);
+  border: 2px dashed var(--color-borde);
+  border-radius: var(--radio);
+}

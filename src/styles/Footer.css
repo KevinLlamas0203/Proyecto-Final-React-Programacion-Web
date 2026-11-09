@@ -1,0 +1,68 @@
+.footer {
+  margin-top: 2rem;
+  color: #f4e9df;
+  background-color: var(--color-texto);
+}
+
+.footer__contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-block: 2.5rem 1.5rem;
+}
+
+.footer__marca {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer__nombre {
+  margin: 0;
+  font-family: var(--fuente-titulos);
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.footer__lema {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #cbb8a9;
+}
+
+.footer__enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__enlaces a {
+  font-weight: 600;
+  color: #f4e9df;
+  text-decoration: none;
+}
+
+.footer__enlaces a:hover {
+  color: var(--color-acento);
+  text-decoration: underline;
+}
+
+.footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding-block: 1.25rem 1.75rem;
+  font-size: 0.85rem;
+  color: #cbb8a9;
+  border-top: 1px solid rgb(255 255 255 / 12%);
+}
+
+.footer__legal p {
+  margin: 0;
+}

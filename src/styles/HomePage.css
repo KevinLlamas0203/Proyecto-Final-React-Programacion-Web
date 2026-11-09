@@ -1,0 +1,107 @@
+.hero {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 85% 20%, rgb(242 165 22 / 22%), transparent 45%),
+    radial-gradient(circle at 10% 90%, rgb(194 24 91 / 12%), transparent 40%),
+    var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.hero__contenido {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  padding-block: clamp(2.5rem, 8vw, 5rem);
+}
+
+.hero__antetitulo {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-secundario);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.hero__titulo {
+  margin-bottom: 1rem;
+  font-size: clamp(2.3rem, 6vw, 4rem);
+}
+
+.hero__titulo em {
+  font-style: italic;
+  color: var(--color-primario);
+}
+
+.hero__descripcion {
+  max-width: 34rem;
+  margin-bottom: 1.75rem;
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  color: var(--color-texto-suave);
+}
+
+.hero__estadisticas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+  margin: 2.25rem 0 0;
+}
+
+.hero__estadisticas div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hero__estadisticas dt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-texto-suave);
+}
+
+.hero__estadisticas dd {
+  margin: 0;
+  font-family: var(--fuente-titulos);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-primario);
+}
+
+/* Mosaico de fotos: solo en pantallas medianas y grandes */
+.hero__mosaico {
+  display: none;
+}
+
+.hero__mosaico img,
+.hero__mosaico-vacio {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: var(--color-primario-suave);
+  border: 5px solid var(--color-superficie);
+  border-radius: 22px;
+  box-shadow: var(--sombra-elevada);
+  transition: transform 400ms ease;
+}
+
+.hero__mosaico img:hover {
+  transform: scale(1.03) rotate(-1deg);
+}
+
+@media (min-width: 860px) {
+  .hero__contenido {
+    grid-template-columns: 1.05fr 1fr;
+  }
+
+  .hero__mosaico {
+    display: grid;
+    grid-template-rows: repeat(2, 190px);
+    grid-template-columns: 1.2fr 1fr;
+    gap: 1rem;
+  }
+
+  .hero__mosaico > :first-child {
+    grid-row: span 2;
+  }
+}

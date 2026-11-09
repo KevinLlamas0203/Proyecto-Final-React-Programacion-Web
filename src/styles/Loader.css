@@ -1,0 +1,47 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 280px;
+  text-align: center;
+}
+
+/* Spinner con los colores de la paleta, como un plato girando */
+.loader__spinner {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border: 6px solid var(--color-primario-suave);
+  border-top-color: var(--color-primario);
+  border-right-color: var(--color-acento);
+  border-radius: 50%;
+  animation: girar 0.9s linear infinite;
+}
+
+.loader__spinner span {
+  position: absolute;
+  inset: 12px;
+  background-color: var(--color-acento-suave);
+  border-radius: 50%;
+}
+
+.loader__mensaje {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-texto-suave);
+  animation: parpadear 1.6s ease-in-out infinite;
+}
+
+@keyframes girar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes parpadear {
+  50% {
+    opacity: 0.5;
+  }
+}
