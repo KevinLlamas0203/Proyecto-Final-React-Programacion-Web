@@ -1,0 +1,15 @@
+# Configuración de despliegue en Netlify
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# React Router maneja las rutas en el navegador. Esta regla hace que al recargar
+# o abrir directamente una URL como /recetas/3 o /contacto, Netlify sirva index.html
+# en lugar de responder con su propio error 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
