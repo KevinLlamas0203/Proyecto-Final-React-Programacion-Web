@@ -1,0 +1,759 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tacos al pastor",
+    "descripcion": "Tacos de carne de cerdo marinada en adobo de chiles secos y achiote, cocinada en trompo vertical y servida con piña, cebolla y cilantro. Nacieron en la Ciudad de México a mediados del siglo XX, inspirados en el shawarma que trajeron los inmigrantes libaneses.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/tacos-al-pastor.jpg",
+    "categoria": "Antojito",
+    "region": "Ciudad de México",
+    "tiempoPreparacion": 150,
+    "porciones": 6,
+    "dificultad": "Media",
+    "picante": 2,
+    "ingredientes": [
+      "1 kg de lomo o pierna de cerdo en filetes delgados",
+      "4 chiles guajillo desvenados",
+      "2 chiles ancho desvenados",
+      "50 g de pasta de achiote",
+      "1/2 taza de jugo de piña",
+      "1/4 de taza de vinagre blanco",
+      "3 dientes de ajo",
+      "1 cucharadita de comino y 1 de orégano",
+      "1/2 piña en rodajas",
+      "Tortillas de maíz",
+      "Cebolla y cilantro picados",
+      "Limones, sal, pimienta y salsa al gusto"
+    ],
+    "preparacion": [
+      "Hidrata los chiles en agua caliente durante 15 minutos.",
+      "Licúa los chiles con el achiote, el jugo de piña, el vinagre, el ajo, el comino, el orégano, sal y pimienta hasta obtener un adobo espeso.",
+      "Baña los filetes con el adobo y déjalos marinar en refrigeración al menos 2 horas (idealmente toda la noche).",
+      "Cocina la carne en tandas en un comal o sartén muy caliente hasta que se dore, o ármala en trompo y hornéala.",
+      "Asa las rodajas de piña hasta caramelizarlas y córtalas en cubos.",
+      "Pica la carne finamente y sírvela en tortillas calientes con piña, cebolla, cilantro, limón y salsa."
+    ],
+    "creditoImagen": {
+      "autor": "City Foodsters",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:(El_Flaco)_Al_Pastor_Tacos.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Pozole rojo",
+    "descripcion": "Caldo de origen prehispánico hecho con maíz cacahuazintle y carne de cerdo, teñido de rojo con chiles guajillo y ancho. Es el platillo estrella de las fiestas patrias y se sirve con lechuga, rábano, cebolla, orégano y tostadas.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/pozole.jpg",
+    "categoria": "Sopa",
+    "region": "Jalisco",
+    "tiempoPreparacion": 180,
+    "porciones": 8,
+    "dificultad": "Media",
+    "picante": 2,
+    "ingredientes": [
+      "1 kg de maíz pozolero (cacahuazintle) precocido",
+      "1 kg de carne de cerdo (maciza y espinazo)",
+      "6 chiles guajillo",
+      "3 chiles ancho",
+      "1 cebolla blanca",
+      "1 cabeza de ajo",
+      "Orégano seco",
+      "Sal al gusto",
+      "Para acompañar: lechuga, rábanos, cebolla picada, limones y tostadas"
+    ],
+    "preparacion": [
+      "Cuece la carne en una olla grande con agua, media cebolla, la mitad de los ajos y sal durante 1 hora, retirando la espuma.",
+      "Enjuaga el maíz y agrégalo a la olla; cocina hasta que los granos revienten y abran como flor.",
+      "Hidrata los chiles en agua caliente y licúalos con el resto del ajo y la cebolla. Cuela la salsa.",
+      "Fríe la salsa unos minutos e incorpórala al caldo.",
+      "Deja hervir a fuego bajo 30 minutos más y ajusta la sal.",
+      "Sirve bien caliente con lechuga, rábano, cebolla, orégano, limón y tostadas."
+    ],
+    "creditoImagen": {
+      "autor": "Ivette Degollado",
+      "licencia": "CC0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Pozole_rojo_(2017).jpg"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Mole poblano",
+    "descripcion": "Salsa espesa y aromática que combina chiles mulato, ancho, pasilla y chipotle con chocolate, especias, semillas y frutos secos. Se sirve sobre piezas de pollo o guajolote y es símbolo de la cocina mestiza de Puebla.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/mole.jpg",
+    "categoria": "Plato fuerte",
+    "region": "Puebla",
+    "tiempoPreparacion": 240,
+    "porciones": 10,
+    "dificultad": "Difícil",
+    "picante": 1,
+    "ingredientes": [
+      "1 pollo o guajolote en piezas",
+      "6 chiles mulato, 4 ancho y 4 pasilla",
+      "2 chiles chipotle secos",
+      "2 jitomates",
+      "1/2 cebolla y 4 dientes de ajo",
+      "1/2 taza de ajonjolí (y un poco más para decorar)",
+      "1/4 de taza de almendras y 1/4 de cacahuates",
+      "1/4 de taza de pasas",
+      "1 tortilla dorada y 1 bolillo duro",
+      "1 tableta de chocolate de mesa (90 g)",
+      "Clavo, pimienta gorda, canela y anís",
+      "Manteca o aceite y caldo de pollo"
+    ],
+    "preparacion": [
+      "Cuece el pollo en agua con cebolla, ajo y sal; reserva el caldo.",
+      "Desvena los chiles, fríelos ligeramente y remójalos en caldo caliente.",
+      "Por separado, fríe el ajonjolí, las almendras, los cacahuates, las pasas, la tortilla, el pan y las especias.",
+      "Asa el jitomate, la cebolla y el ajo.",
+      "Licúa todo con los chiles y un poco de caldo, en tandas, hasta obtener una pasta tersa.",
+      "Fríe la pasta en manteca caliente, agrega el chocolate y el caldo poco a poco, y cocina 40 minutos a fuego bajo moviendo constantemente.",
+      "Sirve las piezas de pollo bañadas en mole y espolvoreadas con ajonjolí, con arroz y tortillas."
+    ],
+    "creditoImagen": {
+      "autor": "Elelicht",
+      "licencia": "CC BY-SA 3.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Mole_in_Puebla.JPG"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Chiles en nogada",
+    "descripcion": "Chiles poblanos rellenos de un picadillo de carne con frutas de temporada, cubiertos con nogada (salsa de nuez de Castilla) y decorados con granada y perejil, que evocan los colores de la bandera. Se preparan en agosto y septiembre.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/chiles-nogada.jpg",
+    "categoria": "Plato fuerte",
+    "region": "Puebla",
+    "tiempoPreparacion": 180,
+    "porciones": 6,
+    "dificultad": "Difícil",
+    "picante": 1,
+    "ingredientes": [
+      "6 chiles poblanos grandes",
+      "500 g de carne molida de res y cerdo",
+      "1 manzana, 1 pera y 1 durazno en cubos",
+      "1 plátano macho en cubos",
+      "1/4 de taza de pasas y 1/4 de almendras picadas",
+      "2 jitomates picados",
+      "1/2 cebolla y 2 dientes de ajo",
+      "1 taza de nuez de Castilla pelada",
+      "1/2 taza de queso de cabra",
+      "1 taza de leche",
+      "1 cucharada de azúcar y una pizca de canela",
+      "1 granada roja desgranada y hojas de perejil"
+    ],
+    "preparacion": [
+      "Asa los chiles directamente al fuego, déjalos sudar en una bolsa, pélalos y desvénalos sin romperlos.",
+      "Sofríe la cebolla y el ajo, agrega la carne y cocina hasta dorar.",
+      "Añade el jitomate, las frutas, las pasas y las almendras; cocina 15 minutos y sazona con sal y canela.",
+      "Licúa la nuez con el queso, la leche y el azúcar hasta obtener una salsa tersa (la nogada).",
+      "Rellena los chiles con el picadillo.",
+      "Sirve a temperatura ambiente, cubiertos con nogada, granada y perejil."
+    ],
+    "creditoImagen": {
+      "autor": "Ahleli",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Chile_relleno_en_nogada_con_granada.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Cochinita pibil",
+    "descripcion": "Cerdo marinado en achiote y jugo de naranja agria, envuelto en hojas de plátano y cocido lentamente. Tradicionalmente se cocina en un \"pib\", horno de tierra maya, y se acompaña con cebolla morada encurtida y chile habanero.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/cochinita.jpg",
+    "categoria": "Plato fuerte",
+    "region": "Yucatán",
+    "tiempoPreparacion": 300,
+    "porciones": 8,
+    "dificultad": "Media",
+    "picante": 1,
+    "ingredientes": [
+      "1.5 kg de pierna o espaldilla de cerdo en trozos",
+      "100 g de pasta de achiote",
+      "1 taza de jugo de naranja agria (o mezcla de naranja y limón)",
+      "4 dientes de ajo",
+      "1 cucharadita de comino y 1 de orégano",
+      "Hojas de plátano",
+      "2 cebollas moradas en plumas",
+      "2 chiles habaneros",
+      "Jugo de limón, sal y pimienta",
+      "Tortillas de maíz"
+    ],
+    "preparacion": [
+      "Disuelve el achiote en el jugo de naranja agria y licúa con ajo, comino, orégano, sal y pimienta.",
+      "Marina la carne con esta mezcla durante al menos 4 horas.",
+      "Forra un refractario con hojas de plátano asadas, coloca la carne con la marinada y cúbrela con más hojas.",
+      "Hornea tapado a 170 °C durante 3 horas, hasta que la carne se deshebre fácilmente.",
+      "Encurte la cebolla morada con jugo de limón, sal y habanero picado.",
+      "Deshebra la carne con su jugo y sírvela en tacos o tortas con la cebolla encurtida."
+    ],
+    "creditoImagen": {
+      "autor": "Popo le Chien",
+      "licencia": "CC BY-SA 3.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Cochinita_pibil_2.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Birria",
+    "descripcion": "Guiso tapatío de carne de chivo o de res marinada en un adobo de chiles secos y especias, cocida lentamente hasta deshacerse. Se sirve con su consomé, cebolla, cilantro, orégano, limón y tortillas hechas a mano.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/birria.jpg",
+    "categoria": "Plato fuerte",
+    "region": "Jalisco",
+    "tiempoPreparacion": 240,
+    "porciones": 8,
+    "dificultad": "Media",
+    "picante": 2,
+    "ingredientes": [
+      "2 kg de carne de chivo o de res (chambarete y costilla)",
+      "6 chiles guajillo",
+      "3 chiles ancho",
+      "2 chiles de árbol",
+      "1/2 cebolla y 6 dientes de ajo",
+      "1/4 de taza de vinagre de manzana",
+      "1 raja de canela, 3 clavos y 1 cucharadita de comino",
+      "2 hojas de laurel y orégano",
+      "2 jitomates",
+      "Sal y pimienta",
+      "Cebolla, cilantro y limones para servir"
+    ],
+    "preparacion": [
+      "Hidrata los chiles y licúalos con el ajo, la cebolla, el vinagre y las especias hasta formar un adobo.",
+      "Unta la carne con el adobo y déjala reposar 2 horas o toda la noche.",
+      "Coloca la carne en una olla con laurel y un poco de agua, y tápala muy bien.",
+      "Cocina a fuego bajo (o en horno a 170 °C) entre 3 y 4 horas.",
+      "Licúa el jitomate asado con caldo de la cocción para preparar el consomé.",
+      "Sirve la carne con su consomé, cebolla, cilantro, orégano y limón."
+    ],
+    "creditoImagen": {
+      "autor": "Equipo 9mkt",
+      "licencia": "CC BY-SA 3.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Plato_de_birria.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Torta ahogada",
+    "descripcion": "Emblema de Guadalajara: un birote salado relleno de carnitas, \"ahogado\" en salsa de jitomate y bañado con salsa picante de chile de árbol. Se acompaña con cebolla desflemada en limón.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/torta-ahogada.jpg",
+    "categoria": "Antojito",
+    "region": "Jalisco",
+    "tiempoPreparacion": 60,
+    "porciones": 4,
+    "dificultad": "Fácil",
+    "picante": 3,
+    "ingredientes": [
+      "4 birotes salados (o bolillos firmes)",
+      "500 g de carnitas de cerdo",
+      "1 kg de jitomate",
+      "1/4 de cebolla y 2 dientes de ajo",
+      "1 cucharadita de orégano",
+      "20 chiles de árbol secos",
+      "1/4 de taza de vinagre",
+      "Cebolla morada desflemada en limón",
+      "Frijoles refritos (opcional)",
+      "Sal al gusto"
+    ],
+    "preparacion": [
+      "Cuece los jitomates con cebolla y ajo; licúalos con orégano y sal, cuela y calienta la salsa.",
+      "Tuesta ligeramente los chiles de árbol y licúalos con vinagre, ajo, sal y un poco de agua para la salsa picante.",
+      "Abre los birotes, úntales frijoles si lo deseas y rellénalos con carnitas.",
+      "Coloca cada torta en un plato hondo y báñala por completo con la salsa de jitomate.",
+      "Agrega salsa picante al gusto: \"media ahogada\" o \"bien ahogada\".",
+      "Decora con cebolla desflemada y sirve de inmediato."
+    ],
+    "creditoImagen": {
+      "autor": "Gustavo Andrade",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Pialadero_torta_ahogada.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Chilaquiles verdes",
+    "descripcion": "Totopos de tortilla bañados en salsa verde de tomate y chile serrano, coronados con crema, queso fresco y cebolla. Son el desayuno mexicano por excelencia y la mejor forma de aprovechar las tortillas del día anterior.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/chilaquiles.jpg",
+    "categoria": "Desayuno",
+    "region": "Ciudad de México",
+    "tiempoPreparacion": 30,
+    "porciones": 4,
+    "dificultad": "Fácil",
+    "picante": 2,
+    "ingredientes": [
+      "12 tortillas de maíz del día anterior",
+      "500 g de tomate verde",
+      "2 chiles serranos",
+      "1/4 de cebolla y 1 diente de ajo",
+      "1 manojo pequeño de cilantro",
+      "1/2 taza de crema",
+      "100 g de queso fresco",
+      "Aceite para freír y sal",
+      "Opcional: pollo deshebrado, huevo estrellado o frijoles"
+    ],
+    "preparacion": [
+      "Corta las tortillas en triángulos y fríelas hasta que estén crujientes; escúrrelas sobre papel absorbente.",
+      "Cuece los tomates y los chiles en agua durante 10 minutos.",
+      "Licúalos con la cebolla, el ajo, el cilantro y sal.",
+      "Fríe la salsa en un sartén amplio y deja que hierva 5 minutos.",
+      "Agrega los totopos y mezcla con cuidado para que se impregnen sin deshacerse.",
+      "Sirve con crema, queso desmoronado, aros de cebolla y el acompañamiento de tu preferencia."
+    ],
+    "creditoImagen": {
+      "autor": "ismael villafranco",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:01_Chilaquiles_verdes_con_frijoles_chinos.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Guacamole",
+    "descripcion": "Salsa de aguacate machacado con jitomate, cebolla, cilantro, chile y limón. Su nombre viene del náhuatl \"ahuacamolli\" (salsa de aguacate) y tradicionalmente se prepara y se sirve en molcajete.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/guacamole.jpg",
+    "categoria": "Antojito",
+    "region": "Centro de México",
+    "tiempoPreparacion": 15,
+    "porciones": 4,
+    "dificultad": "Fácil",
+    "picante": 1,
+    "ingredientes": [
+      "3 aguacates maduros",
+      "1 jitomate sin semillas, picado",
+      "1/4 de cebolla blanca picada",
+      "1 chile serrano picado finamente",
+      "2 cucharadas de cilantro picado",
+      "Jugo de 1 limón",
+      "Sal al gusto",
+      "Totopos para acompañar"
+    ],
+    "preparacion": [
+      "Machaca en el molcajete el chile y la cebolla con un poco de sal.",
+      "Agrega la pulpa de los aguacates y machácala hasta lograr la textura que prefieras.",
+      "Incorpora el jitomate y el cilantro.",
+      "Añade el jugo de limón y ajusta la sal.",
+      "Sirve de inmediato con totopos; si lo guardas, cúbrelo con plástico en contacto para que no se oscurezca."
+    ],
+    "creditoImagen": {
+      "autor": "Missvain",
+      "licencia": "CC BY 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Lindo_Mexico_II_-_November_3_2023_-_Sarah_Stierch_02.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Sopa de tortilla",
+    "descripcion": "También llamada sopa azteca: caldo de jitomate con chile pasilla y epazote, servido sobre tiras de tortilla frita y coronado con aguacate, queso y crema.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/sopa-tortilla.jpg",
+    "categoria": "Sopa",
+    "region": "Ciudad de México",
+    "tiempoPreparacion": 45,
+    "porciones": 6,
+    "dificultad": "Fácil",
+    "picante": 1,
+    "ingredientes": [
+      "10 tortillas de maíz cortadas en tiras",
+      "4 jitomates",
+      "1/4 de cebolla y 2 dientes de ajo",
+      "1.5 litros de caldo de pollo",
+      "2 ramas de epazote",
+      "2 chiles pasilla",
+      "1 aguacate en cubos",
+      "150 g de queso panela en cubos",
+      "Crema, aceite y sal"
+    ],
+    "preparacion": [
+      "Fríe las tiras de tortilla hasta dorarlas y escúrrelas.",
+      "Fríe los chiles pasilla unos segundos y resérvalos para decorar.",
+      "Asa los jitomates, la cebolla y el ajo; lícualos con un poco de caldo.",
+      "Fríe el puré en una olla, agrega el resto del caldo y el epazote, y deja hervir 15 minutos.",
+      "Sazona con sal al gusto.",
+      "En cada plato coloca tortillas, queso y aguacate; vierte el caldo caliente y decora con crema y trocitos de chile pasilla."
+    ],
+    "creditoImagen": {
+      "autor": "Wikiwrimo",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Tortilla_Soup.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "nombre": "Tlayuda",
+    "descripcion": "Tortilla oaxaqueña de gran tamaño, delgada y crujiente, untada con asiento de cerdo y frijoles negros, cubierta con quesillo, col y tasajo, cecina o chorizo. Se cocina doblada o abierta sobre las brasas.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/tlayuda.jpg",
+    "categoria": "Antojito",
+    "region": "Oaxaca",
+    "tiempoPreparacion": 30,
+    "porciones": 2,
+    "dificultad": "Fácil",
+    "picante": 1,
+    "ingredientes": [
+      "2 tlayudas (tortillas grandes oaxaqueñas)",
+      "4 cucharadas de asiento (manteca de cerdo sin refinar)",
+      "1 taza de frijoles negros refritos",
+      "200 g de quesillo (queso Oaxaca) deshebrado",
+      "300 g de tasajo, cecina o chorizo",
+      "Col o lechuga rebanada",
+      "Aguacate, jitomate y rábanos",
+      "Salsa de chile pasilla oaxaqueño"
+    ],
+    "preparacion": [
+      "Calienta la tlayuda en el comal o sobre las brasas.",
+      "Úntale una capa delgada de asiento y después los frijoles.",
+      "Agrega el quesillo deshebrado.",
+      "Asa la carne y colócala encima o sírvela a un lado.",
+      "Dobla la tlayuda y tuéstala por ambos lados hasta que el queso se derrita, o déjala abierta.",
+      "Sirve con col, aguacate, jitomate y salsa."
+    ],
+    "creditoImagen": {
+      "autor": "Gomez.erick",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:TLAYUDA.jpg"
+    }
+  },
+  {
+    "id": 12,
+    "nombre": "Tamales",
+    "descripcion": "Masa de maíz batida con manteca, rellena de guisos como pollo en salsa verde o rajas con queso, envuelta en hoja de maíz y cocida al vapor. De origen prehispánico, son protagonistas del Día de la Candelaria.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/tamales.jpg",
+    "categoria": "Antojito",
+    "region": "Centro de México",
+    "tiempoPreparacion": 150,
+    "porciones": 20,
+    "dificultad": "Media",
+    "picante": 1,
+    "ingredientes": [
+      "1 kg de masa de maíz para tamales",
+      "300 g de manteca de cerdo",
+      "1 cucharada de polvo para hornear",
+      "1 taza de caldo de pollo tibio",
+      "30 hojas de maíz",
+      "500 g de pollo cocido y deshebrado",
+      "2 tazas de salsa verde o roja",
+      "Sal al gusto"
+    ],
+    "preparacion": [
+      "Remoja las hojas de maíz en agua caliente hasta que estén flexibles.",
+      "Bate la manteca hasta que esponje y agrega la masa, el polvo para hornear, la sal y el caldo poco a poco.",
+      "Sigue batiendo hasta que una bolita de masa flote en un vaso con agua.",
+      "Mezcla el pollo con la salsa.",
+      "Unta masa sobre cada hoja, añade relleno y dóblala.",
+      "Acomoda los tamales de pie en la vaporera y cuécelos 1 hora y media, hasta que la masa se despegue de la hoja."
+    ],
+    "creditoImagen": {
+      "autor": "Ivette Degollado",
+      "licencia": "CC0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Tamales_mexicanos.jpg"
+    }
+  },
+  {
+    "id": 13,
+    "nombre": "Enchiladas placeras",
+    "descripcion": "Tortillas pasadas por salsa de chile guajillo, rellenas de queso y fritas, acompañadas de pollo, papas y zanahorias doradas, lechuga y queso Cotija. Son el platillo típico de las plazas de Morelia, por lo que también se les llama morelianas.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/enchiladas.jpg",
+    "categoria": "Plato fuerte",
+    "region": "Michoacán",
+    "tiempoPreparacion": 60,
+    "porciones": 4,
+    "dificultad": "Media",
+    "picante": 1,
+    "ingredientes": [
+      "12 tortillas de maíz",
+      "6 chiles guajillo",
+      "1 diente de ajo y 1/4 de cebolla",
+      "1 cucharadita de orégano",
+      "200 g de queso fresco desmoronado",
+      "4 piezas de pollo cocido",
+      "2 papas y 2 zanahorias en cubos, cocidas",
+      "Lechuga rebanada",
+      "Queso Cotija, crema y chiles en vinagre",
+      "Aceite y sal"
+    ],
+    "preparacion": [
+      "Hidrata los chiles y licúalos con el ajo, la cebolla, el orégano, sal y un poco de agua.",
+      "Pasa cada tortilla por la salsa y fríela brevemente por ambos lados.",
+      "Rellénala con queso fresco y cebolla, y dóblala o enróllala.",
+      "En el mismo aceite, dora las papas y las zanahorias con un poco de salsa.",
+      "Dora las piezas de pollo.",
+      "Sirve las enchiladas con el pollo, las verduras, lechuga, crema, queso Cotija y chiles en vinagre."
+    ],
+    "creditoImagen": {
+      "autor": "Martin Edmundo Barriga Orozco",
+      "licencia": "Public domain",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Enchiladas.jpg"
+    }
+  },
+  {
+    "id": 14,
+    "nombre": "Esquites",
+    "descripcion": "Granos de elote cocidos con mantequilla, epazote, cebolla y chile, servidos en vaso con mayonesa, queso, limón y chile en polvo. Un antojo callejero infaltable en plazas y ferias.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/esquites.jpg",
+    "categoria": "Antojito",
+    "region": "Centro de México",
+    "tiempoPreparacion": 30,
+    "porciones": 4,
+    "dificultad": "Fácil",
+    "picante": 1,
+    "ingredientes": [
+      "6 elotes desgranados",
+      "2 cucharadas de mantequilla",
+      "1/4 de cebolla picada",
+      "1 chile serrano picado",
+      "2 ramas de epazote",
+      "1 litro de agua",
+      "Sal al gusto",
+      "Para servir: mayonesa, queso Cotija rallado, limón y chile en polvo"
+    ],
+    "preparacion": [
+      "Derrite la mantequilla y sofríe la cebolla y el chile.",
+      "Agrega los granos de elote y saltéalos 5 minutos.",
+      "Añade el agua, el epazote y sal; cocina 20 minutos, hasta que el elote esté suave.",
+      "Sirve en vasos con un poco de su caldo.",
+      "Agrega mayonesa, queso, limón y chile en polvo al gusto."
+    ],
+    "creditoImagen": {
+      "autor": "Viritrudis",
+      "licencia": "Public domain",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Esquites.jpg"
+    }
+  },
+  {
+    "id": 15,
+    "nombre": "Carne en su jugo",
+    "descripcion": "Platillo tapatío de trocitos de res cocidos en su propio jugo con salsa de tomate verde, acompañados de frijoles bayos, tocino dorado, cebolla, cilantro y rábanos. Nació en las fondas de Guadalajara.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/carne-en-su-jugo.jpg",
+    "categoria": "Sopa",
+    "region": "Jalisco",
+    "tiempoPreparacion": 60,
+    "porciones": 4,
+    "dificultad": "Fácil",
+    "picante": 1,
+    "ingredientes": [
+      "600 g de filete o sirloin de res en trozos pequeños",
+      "200 g de tocino picado",
+      "500 g de tomate verde",
+      "2 chiles serranos",
+      "1/4 de cebolla y 2 dientes de ajo",
+      "2 tazas de frijoles bayos cocidos con su caldo",
+      "3 tazas de caldo de res",
+      "Cilantro y cebolla picados",
+      "Rábanos y limones",
+      "Sal y pimienta"
+    ],
+    "preparacion": [
+      "Dora el tocino en una olla; retíralo y resérvalo.",
+      "En la grasa del tocino, sella la carne a fuego alto.",
+      "Cuece los tomates y los chiles, y lícualos con la cebolla y el ajo.",
+      "Agrega la salsa y el caldo a la carne; cocina 20 minutos a fuego medio.",
+      "Sazona con sal y pimienta.",
+      "Sirve en platos hondos con frijoles, tocino, cebolla, cilantro y rábanos; acompaña con limón y tortillas."
+    ],
+    "creditoImagen": {
+      "autor": "Pablo Villaseñor",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Carne_En_Su_Jugo_.jpg"
+    }
+  },
+  {
+    "id": 16,
+    "nombre": "Pambazo",
+    "descripcion": "Pan blanco bañado en salsa de chile guajillo y dorado en el comal, relleno de papas con chorizo, lechuga, crema y queso. Es un clásico de las cenas y garnachas de la capital.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/pambazo.jpg",
+    "categoria": "Antojito",
+    "region": "Ciudad de México",
+    "tiempoPreparacion": 45,
+    "porciones": 6,
+    "dificultad": "Fácil",
+    "picante": 2,
+    "ingredientes": [
+      "6 panes para pambazo",
+      "6 chiles guajillo",
+      "1 diente de ajo",
+      "4 papas cocidas en cubos",
+      "250 g de chorizo",
+      "Lechuga rebanada",
+      "Crema y queso fresco",
+      "Salsa verde",
+      "Aceite y sal"
+    ],
+    "preparacion": [
+      "Hidrata los chiles y licúalos con el ajo, sal y un poco de agua.",
+      "Fríe el chorizo, agrega las papas y cocina hasta que se doren.",
+      "Abre los panes y rellénalos con la papa con chorizo.",
+      "Sumerge el exterior de cada pan en la salsa de guajillo.",
+      "Dóralos en un comal con un poco de aceite por ambos lados.",
+      "Abre y añade lechuga, crema, queso y salsa al gusto."
+    ],
+    "creditoImagen": {
+      "autor": "AlejandroLinaresGarcia",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:PambazosDF.JPG"
+    }
+  },
+  {
+    "id": 17,
+    "nombre": "Huevos rancheros",
+    "descripcion": "Huevos estrellados sobre tortillas de maíz ligeramente fritas, bañados en salsa ranchera de jitomate y chile. Un desayuno campirano que se acompaña con frijoles refritos y aguacate.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/huevos-rancheros.jpg",
+    "categoria": "Desayuno",
+    "region": "Todo México",
+    "tiempoPreparacion": 20,
+    "porciones": 2,
+    "dificultad": "Fácil",
+    "picante": 2,
+    "ingredientes": [
+      "4 huevos",
+      "4 tortillas de maíz",
+      "3 jitomates",
+      "2 chiles serranos",
+      "1/4 de cebolla y 1 diente de ajo",
+      "Frijoles refritos",
+      "Aguacate en rebanadas",
+      "Queso fresco",
+      "Aceite y sal"
+    ],
+    "preparacion": [
+      "Asa los jitomates, los chiles, la cebolla y el ajo; lícualos y fríe la salsa con sal durante 10 minutos.",
+      "Fríe ligeramente las tortillas y escúrrelas.",
+      "Fríe los huevos estrellados.",
+      "Coloca dos tortillas en cada plato y un huevo sobre cada una.",
+      "Báñalos con la salsa ranchera caliente.",
+      "Acompaña con frijoles, aguacate y queso."
+    ],
+    "creditoImagen": {
+      "autor": "jeffreyw",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Mmm...huevos_rancheros.jpg"
+    }
+  },
+  {
+    "id": 18,
+    "nombre": "Churros",
+    "descripcion": "Masa frita en forma de tiras estriadas, crujiente por fuera y suave por dentro, revolcada en azúcar con canela. Llegaron de España y en México se disfrutan con chocolate caliente, cajeta o rellenos.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/churros.jpg",
+    "categoria": "Postre",
+    "region": "Todo México",
+    "tiempoPreparacion": 40,
+    "porciones": 6,
+    "dificultad": "Media",
+    "picante": 0,
+    "ingredientes": [
+      "1 taza de agua",
+      "1 taza de harina de trigo",
+      "2 cucharadas de mantequilla",
+      "1 cucharada de azúcar",
+      "1 pizca de sal",
+      "1 huevo",
+      "Aceite para freír",
+      "1/2 taza de azúcar mezclada con 1 cucharada de canela molida"
+    ],
+    "preparacion": [
+      "Hierve el agua con la mantequilla, el azúcar y la sal.",
+      "Retira del fuego, agrega la harina de golpe y mezcla hasta formar una masa que se despegue de las paredes.",
+      "Deja entibiar e incorpora el huevo hasta integrarlo.",
+      "Coloca la masa en una manga pastelera con duya de estrella.",
+      "Fríe tiras de masa en aceite caliente (180 °C) hasta que se doren.",
+      "Escúrrelos y revuélcalos en el azúcar con canela. Sírvelos con chocolate caliente."
+    ],
+    "creditoImagen": {
+      "autor": "Tamorlan",
+      "licencia": "CC BY 3.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Bandeja_de_churros.jpg"
+    }
+  },
+  {
+    "id": 19,
+    "nombre": "Flan napolitano",
+    "descripcion": "Postre cremoso de leche condensada, leche evaporada, huevo y queso crema, horneado a baño María sobre una capa de caramelo. Es la versión mexicana del flan heredado de la tradición española.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/flan.jpg",
+    "categoria": "Postre",
+    "region": "Todo México",
+    "tiempoPreparacion": 90,
+    "porciones": 8,
+    "dificultad": "Fácil",
+    "picante": 0,
+    "ingredientes": [
+      "1 lata de leche condensada",
+      "1 lata de leche evaporada",
+      "5 huevos",
+      "190 g de queso crema",
+      "1 cucharadita de extracto de vainilla",
+      "1 taza de azúcar para el caramelo"
+    ],
+    "preparacion": [
+      "Derrite el azúcar en un sartén a fuego medio hasta obtener un caramelo dorado y viértelo en un molde.",
+      "Licúa las leches, los huevos, el queso crema y la vainilla.",
+      "Vierte la mezcla sobre el caramelo y cubre el molde con papel aluminio.",
+      "Hornea a baño María a 180 °C durante 60 minutos, o hasta que al insertar un palillo salga limpio.",
+      "Deja enfriar y refrigera al menos 4 horas.",
+      "Desmolda pasando un cuchillo por el borde e invirtiendo el molde sobre un plato."
+    ],
+    "creditoImagen": {
+      "autor": "Amanda Coutinho",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Cr%C3%A8me_caramel_2.jpg"
+    }
+  },
+  {
+    "id": 20,
+    "nombre": "Tejuino",
+    "descripcion": "Bebida fermentada de masa de maíz y piloncillo, tradicional de Jalisco y de origen prehispánico. Se sirve muy fría con jugo de limón, sal y una bola de nieve de limón.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/tejuino.jpg",
+    "categoria": "Bebida",
+    "region": "Jalisco",
+    "tiempoPreparacion": 40,
+    "porciones": 8,
+    "dificultad": "Fácil",
+    "picante": 0,
+    "ingredientes": [
+      "500 g de masa de maíz nixtamalizado",
+      "400 g de piloncillo",
+      "3 litros de agua",
+      "Jugo de limón",
+      "Sal",
+      "Nieve de limón",
+      "Hielo",
+      "Chile en polvo (opcional)"
+    ],
+    "preparacion": [
+      "Hierve 2 litros de agua con el piloncillo hasta disolverlo.",
+      "Disuelve la masa en 1 litro de agua y cuélala.",
+      "Agrega la masa al agua con piloncillo y cocina a fuego medio, moviendo constantemente, unos 20 minutos, hasta que espese ligeramente.",
+      "Deja enfriar, cubre con una manta y deja fermentar a temperatura ambiente durante 1 o 2 días.",
+      "Bate o licúa antes de servir y refrigera.",
+      "Sirve en vaso con hielo, limón, sal y una bola de nieve de limón."
+    ],
+    "creditoImagen": {
+      "autor": "AlejandroLinaresGarcia",
+      "licencia": "CC BY-SA 4.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Tejuino.JPG"
+    }
+  },
+  {
+    "id": 21,
+    "nombre": "Agua de jamaica",
+    "descripcion": "Agua fresca preparada con la infusión de flor de jamaica seca endulzada con azúcar. De color rubí y sabor ligeramente ácido, es una de las aguas más populares para acompañar la comida.",
+    "imagen": "https://raw.githubusercontent.com/KevinLlamas0203/Proyecto-Final-React-Programacion-Web/main/api/imagenes/agua-jamaica.jpg",
+    "categoria": "Bebida",
+    "region": "Todo México",
+    "tiempoPreparacion": 25,
+    "porciones": 8,
+    "dificultad": "Fácil",
+    "picante": 0,
+    "ingredientes": [
+      "1 taza de flor de jamaica seca",
+      "2.5 litros de agua",
+      "3/4 de taza de azúcar (al gusto)",
+      "Hielo",
+      "Rodajas de limón (opcional)"
+    ],
+    "preparacion": [
+      "Enjuaga la flor de jamaica para quitarle impurezas.",
+      "Hierve 1 litro de agua, agrega la jamaica y deja hervir 5 minutos.",
+      "Apaga el fuego y deja reposar 15 minutos.",
+      "Cuela la infusión (puedes reutilizar las flores para una segunda tanda).",
+      "Agrega el agua restante y el azúcar, y mezcla bien.",
+      "Sirve muy fría con hielo."
+    ],
+    "creditoImagen": {
+      "autor": "claralieu",
+      "licencia": "CC BY 2.0",
+      "fuente": "https://commons.wikimedia.org/wiki/File:A_glass_of_hibiscus_tea_01.jpg"
+    }
+  }
+]
